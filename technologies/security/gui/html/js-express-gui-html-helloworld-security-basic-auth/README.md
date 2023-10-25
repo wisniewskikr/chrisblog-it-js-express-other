@@ -1,6 +1,8 @@
 USAGE COMMANDS
 --------------
 
+> Please be aware that **BASIC AUTHENTICATION DOESN'T PROVIDE LOG OUT FEATUERE FOR HTML**. To log out you have to close HTML browser and open it again.
+
 > Please be aware that following tools should be installed in advance on your computer: **node.js**. 
 
 > Please **clone/download** project, open **project's main folder** in your favorite **command line tool** and then **proceed with steps below**. 
@@ -9,34 +11,23 @@ Usage steps:
 1. In a command line tool install nmp packages with `npm install`
 1. In a command line tool start application with `node app.js`
 1. In a http browser (e.g. Chrome) visit `http://localhost:3000`
-   * Expected **Hello World** page with "Name" field
-1. In a http browser (e.g. Chrome) fill **name** (e.g. Chris) and click **Create** link
-   * Expected message **Hello World Chris!**
-1. In a http browser (e.g. Chrome) click **Back** link
-   * Expected message **Hello World** page with "Name" field
+   * Expected **Index** page
 1. Clean up environment 
      * In a command line tool stop application with `ctrl + C`
-
-
-USAGE IMAGES
-------------
-
-![My Image](readme-images/image-01.png)
-
-![My Image](readme-images/image-02.png)
 
 
 DESCRIPTION
 -----------
 
 ##### Goal
-The goal of this project is to present how to create an **example** application type **GUI HTML** in **JavaScript** programming language with usage **express** framework. This application consists of HTML page which includes following frontend elements: **html**, **javascript**, **css** and **images**.
+The goal of this project is to present how to implement **security** using **Basic Authentication** on an **example** application type **GUI HTML** in **JavaScript** programming language with usage **express** framework.
 
 ##### Terminology
 Terminology explanation:
 * **JavaScript**: is a scripting or programming language that allows you to implement complex features on web pages or to implement web applications.
 * **GUI HTML**: it's an abbreviation for Graphical User Interface. It enables user to interact with application. GUI HTML means that user interacts with application via html web pag.
 * **Express framework**: Express.js is the most popular web framework for Node.js. It is designed for building web applications and APIs and has been called the de facto standard server framework for Node.js.
+* **Basic Authentication**: Basic Authentication means that credentials - username and password - are sent in header encoded as Base64.
 
 ##### Flow
 The following flow takes place in this project:
