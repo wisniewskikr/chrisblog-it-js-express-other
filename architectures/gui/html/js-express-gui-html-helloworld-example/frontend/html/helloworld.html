@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/static/js/helloworld.js"></script>
+    <link rel="stylesheet" href="/static/css/helloworld.css"></link>
+</head>
+<body>
+    <div>
+        <img src="/static/images/helloworld.jpg" alt="Hello World"/>
+    </div>
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name"/>
+    </div>
+    <div id="message" hidden>
+        <span id="message-text"/>
+    </div>    
+    <div>
+        <a id="create-link" href="#" onclick="displayMessage()">Create</a>
+        <a id="back-link" href="#" onclick="hideMessage()" hidden>Back</a>
+    </div>
+</body>
+</html>
